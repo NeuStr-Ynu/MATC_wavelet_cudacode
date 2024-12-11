@@ -1,0 +1,1 @@
+nvcc -o haar1D_gpu.exe haar1D_main.cu wavelet_haar.cu matlab_mmap.cpp -lcudart -I.
